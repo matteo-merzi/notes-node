@@ -8,17 +8,17 @@ var getAll = () => {
     console.log('Getting all notes');
 };
 
-var get = (title) => {
+var getNote = (title) => {
     console.log('Getting', title);
 };
 
-var remove= (title) => {
+var removeNote= (title) => {
     console.log('Removing', title);
 };
 
 module.exports = {
     addNote,
     getAll,
-    get,
-    remove
+    getNote,
+    removeNote
 };
