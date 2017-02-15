@@ -9,7 +9,7 @@ var getAll = () => {
 };
 
 var getNote = (title) => {
-    console.log('Getting', title);
+    console.log('Getting note', title);
 };
 
 var removeNote= (title) => {
